@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* shared style */
+.display-flex{
+    display: flex;
+}
+/* Dark 03 */
+.text-light-gray{
+    color: rgb(114, 114, 114);
+}
+ 
+ 
+.btn-primary{
+    
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 18px;
+     color: white;
+     background-color: tomato;
+     border: none;
+    
+}
+/* header style */
+ 
+ .header{
+ padding-left: 100px;
+ padding-right: 50px;
+ padding-bottom: 100px;
+  background-color: rgb(17, 16, 16);
+ }
+ 
+/* navbar style */
+.nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.nav-item{
+    list-style: none;
+    margin-left: 30px; 
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem; 
+    color: white;
+}
+.colour{
+    padding: 6px 16px;
+    background-color: tomato;
+    border-radius: 18px;
+    color: white;
+}
+.brand{
+  font-weight: 600;
+  font-size: 3rem;
+  color: tomato;
+  margin-top: 50px;
+}
+/* section style */  
+ .banner{
+    background-image: url(./images/Images\ 2.png);
+  background-repeat: no-repeat;
+  background-position: top right,bottom left;
+  background-size: contain;  
+ }
+ 
+.banner-title{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+}
+.size{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    line-height: 20px; 
+
+}
+.banner-description{
+    font-size: 16px;
+     
+}
+.btn-app{
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 18px;
+     color: white;
+     background-color: black; 
+      border-color: white;
+      
+}
+/* habits style */
+.habits{
+   text-align: center;
+    /* margin-bottom: 500px; */
+    background-color: black;
+    padding-top: 20px;
+} 
+.habit-title{
+    font-weight: bolder;
+    font-size: 3rem; 
+    color: white;  
+}
+.habit-description{
+    font-size: 16px;
+}
+.movement{
+    display: flex;
+    gap: 10px;
+justify-content: center;
+}
+.circle{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgb(114, 114, 114);
+    margin-right: 1rem;
+}
+.img-title{
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+ /* Run easily section */
+ .run{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ .run-easily{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    gap: 100px;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    background-color: rgb(43, 38, 38);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    border-radius: 18px;
+    
+ }
+ .extra-mile{
+    height: 20rem;
+    width: 18rem;  
+     margin: 5px;
+ }
+ .extra-mile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    
+ }
+ .btn{
+    text-decoration: none;
+    color: white;
+ }
+  /* BMI chart style */
+  .BMI-chart{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: rgb(34, 34, 34);
+    padding-bottom: 50px;
+  }
+  .box-item{
+    padding-top: 10px;
+  }
+  .table{
+    height: 200px;
+  }
+  .chart{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    
+  }
+  .bmi{
+    color: rgb(255, 255, 255);
+  }
+  .calculator{
+    gap: 5px;
+    padding-bottom: 6px;
+  }
+  .input{
+    padding: 8px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+    color: rgb(155, 145, 145);
+    width: 180px;
+  height: 30px;
+  border: none;
+  }
+  .box-container{
+     align-content: right;
+      
+      
+  }
+  .box{
+    display: flex;
+    gap: 5px;
+    height: 30px;
+    margin-bottom: 23px;
+  }
+  .select-box{
+    position: relative;
+  }
+select{
+  width: 193px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+  color: rgb(138, 132, 132);
+border: none;
+}
+ 
+
+.active{
+  width: 400px;
+  padding-top: 10px;
+ margin-bottom: 15px;
+}
+
+
+  /* Meet our team style */
+  .team-section{
+    background-color: black;
+    padding-bottom: 50px;
+  }
+  .our-team{
+    text-align: center;
+    padding-top: 30px;
+    /* padding-bottom: 20px; */
+  
+  }
+  .padding{
+    padding: 20px;
+    background-color: rgb(33, 34, 34);
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 18px;
+  }
+  .exclusive{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+padding-top: 10px;
+  }
+  .text{
+  
+  }
+  .exclusive img{
+    border-radius: 18px;
+  }
+  .exclusive div{
+    position: relative;
+   
+  }
+  .exclusive div span{
+     position: absolute;
+     top: 30%;
+     left: 30%;
+     transform: translate(-50%,-50%);
+     text-align: start;
+     color: #fff;
+  }
+  .exclusive h4 {
+position: absolute;
+font-size: 22px;
+font-weight: 500;
+color: var(--bg-color);
+left: 15px;
+bottom: 30px;
+color: #fff;
+  }
+  .exclusive p {
+    position: absolute;
+    font-size: 15px;
+    color: var(--bg-color);
+    left: 15px;
+    bottom: 20px;
+    color: #fff;
+    letter-spacing:2px;
+      }
+      /* footerrrrrrrrrrrrrrrrr */
+      footer{
+        width: 100%;
+        position: absolute;
+        border: 0;
+        color: #fff;
+        font-size: 13px;
+line-height: 20px;
+background-color: rgb(29, 27, 27);
+ padding-left: 30px;
+ 
+      }
+      .description{
+        color: #8f8282;
+      }
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+ 
+ 
+}
+.col{
+  /* flex-basis: 25%; */
+  padding: 10px;
+  font-family: inter;
+   align-items: flex-start;
+   justify-content: flex-start;
+  
+}
+.col ul{
+ list-style: none;
+
+ 
+}
+.logo{
+  width: 80px;
+  margin-bottom: 30px;
+}
+.footer-link{
+  text-decoration: none;
+ justify-items: center;
+  Font: Inter;
+font-size: 15px;
+color: #8f8282;
+font-weight: 400;
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+.copyright{
+  text-align: center;
+}
