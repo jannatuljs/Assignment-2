@@ -6,19 +6,26 @@
     <title>Fitness Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b504ed09b3.js" crossorigin="anonymous"></script>
 </head>
 <body>
      
     <header class="header">
         <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
+         
         <nav class="nav-logo">
             <h3 class="brand">Fitness</h3>
+            <label for="check" class="checkbox">
+                <i class="fa-solid fa-bars"></i>
+                       </label>
+                       <input type="checkbox" name="check" id="check">
             <ul class="nav-links display-flex">
             <li class="nav-item"><a href="" class="nav-link"> <span class="colour">Home</span></a></li>
             <li class="nav-item"><a href="" class="nav-link">Service</a></li>
             <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
             <li class="nav-item"><a href="" class="nav-link">About</a></li>
         </ul>
+    
             <div class="workout"> 
                 <span>500+</span>
                 <span> Free Workout Videos</span>
@@ -81,7 +88,7 @@
     <div>
         <h3 class="habit-title">Run an Extra<br>Mile Easily</h3>
         <p class="text-light-gray">We believe fitness should be accessible to everyone,<br>
-        everywhere,regardless of income or access to a gym.With<br>
+        everywhere,regardless of income or access to a gym.<br>With 
     hundreds of professional workouts.</p>
     <button class="btn-primary"> <a href="" class="btn">Join Now</a></button>
     </div>
@@ -126,7 +133,7 @@
         <input class="input" type="text" name="" id="" placeholder="Weight\kg"><br>
        </div>
          <div class="box">
-            <input class="input" type="text" name="" id="" placeholder="Age">
+            <input class="input" type="text" name="" id="age" placeholder="Age">
         <div class="select-box">
     <select>
         <option>Sex</option>

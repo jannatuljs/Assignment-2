@@ -53,6 +53,17 @@
     font-size: 1.5rem; 
     color: white;
 }
+ul li a:hover{
+  color: tomato;
+}
+nav .checkbox i{
+  font-size: 2rem;
+  color:  tomato;
+  cursor: pointer;
+}
+nav .checkbox, nav input{
+  display: none;
+}
 .workout{
   display:flex;
   flex-direction: column;
@@ -409,4 +420,161 @@ hr{
 }
 .copyright{
   text-align: center;
+  
 }
+nav .menu-btn i{
+  color: #fff;
+}
+/* responsive media query */
+@media (width < 750px){
+  nav .checkbox{
+    display: block;
+    margin-right: 15px;
+  }
+nav ul{
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    left: -100%;
+    top: 95px;
+    background-color: rgb(20, 18, 18);
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+  }
+  nav #check:checked ~ ul{
+    left: 10px;
+  }
+  ul li a{
+    font-size: 1.25rem;
+  }
+  .nav-logo, .brand{
+    margin-left: 10px;
+  }
+  .banner-title{
+    margin-left: 10px;
+  }
+}
+ 
+ @media screen and (max-width:576px) {
+  .navbar, .nav-links{
+    flex-direction: column;
+    width: 14rem;
+  }
+  .header{
+    padding-left:0px;
+ padding-right: 0px;
+ padding-bottom: 0px;
+  }
+  
+  .workout{
+    bottom: 50px;
+   right: 9px; 
+  }
+  .video{
+    bottom: -200px ;
+  left: 10px;
+  }
+  .banner{
+  flex-direction: column;
+   height: 150vh;
+   gap: 10px;
+   background-size: contain;
+   background-position: center;
+   padding-bottom: 80px;
+   padding-bottom: 5px;
+   margin-bottom: -250px;
+  }
+  .movement{
+   flex-direction: column;
+  
+  }
+  .habit-title{
+    margin-left: 20px;
+  }
+  .text-light-gray{
+    margin-left: 20px;
+  }
+  .btn-primary{
+    margin-left: 20px;
+    /* width: 200px; */
+  }
+  .run-easily{
+ flex-direction: column;
+ padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    border-radius: 18px;
+  }
+  .BMI-chart{
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 0px;
+  }
+  .box{
+   padding: 0px;
+    margin-left: 0px;
+  }
+  .box-item{
+  justify-content: center;
+  }
+  .chart{
+    margin-left: 0px;
+  }
+  .table{
+    height: 200px;
+   margin-left: 10px;
+     
+  }
+  .box-container{
+    align-content: center;
+    margin-left: 10px;
+  }
+   #age{
+    padding: 6px;
+    padding-left: 55;
+   }
+  .input{
+    padding: 6px;
+    border-radius: 5px;
+      margin-bottom: 10px;
+      width: 130px;
+  }
+  .active{
+    width: 285px;
+    padding-top: 0px;
+    margin-top: 5px;
+   margin-bottom: 15px;
+    margin-left: 0px;
+  }
+select{
+  width: 139px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 5px;
+ 
+}
+ 
+  .padding{
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  .exclusive{
+    flex-direction: column;
+     
+  }
+  .row{
+    flex-direction: column;
+    margin: 0px;
+  }
+  footer{
+    padding-left: 0px;
+  }
+ }
+   
